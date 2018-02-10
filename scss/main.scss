@@ -1,0 +1,33 @@
+/*
+    Vvoyage website for practice
+    Author: Vlad Freishmidt
+    Version: 0.0.1
+*/
+
+/* BASE - Base styles, variables, mixins, etc */
+
+@import 'base/_variables.scss';
+@import 'base/_normalize.scss';
+@import 'base/_base.scss';
+@import 'base/_media-queries.scss';
+
+/* MODULES - Individual site components */
+
+@import 'modules/_typography.scss';
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_sections.scss';
+@import 'modules/_components.scss';
+
+/* LAYOUTS - Page layout styles */
+
+@import 'layouts/_header.scss';
+@import 'layouts/_nav-login.scss';
+@import 'layouts/_nav-main.scss';
+@import 'layouts/_responsive-nav.scss';
+@import 'layouts/_showcase.scss';
+@import 'layouts/_search.scss';
+@import 'layouts/_offers.scss';
+@import 'layouts/_type.scss';
+@import 'layouts/_feedback.scss';
+@import 'layouts/_footer.scss';

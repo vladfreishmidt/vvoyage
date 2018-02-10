@@ -1,0 +1,52 @@
+.nav-main {
+  background-color: $grey-bg;
+  width: 100%;
+
+ .container{
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+
+  .brand {
+    font-size: 2.3rem;
+    font-weight: 700;
+
+    span {
+      color: $primary-color;
+    }
+  }
+
+    li {
+      display: inline-block;
+      margin-right: 2rem;
+
+      a {
+        font-size: .9rem;
+        font-weight: 500;
+        color: $mid-grey;
+        text-transform: uppercase;
+        &:hover {
+          color: $primary-color;
+        }
+
+        .fa-search {
+          padding: .8rem;
+          font-size: 1.25rem;
+          border: 2px solid $mid-grey;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .active {
+      color: $primary-color;
+    }
+  }
+}
+
+@media (min-width: 1126px) {
+    .nav-main {
+        padding: 0;
+        display: block!important;
+       }
+  }

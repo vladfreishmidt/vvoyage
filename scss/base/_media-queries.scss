@@ -1,0 +1,20 @@
+@media (max-width: 1126px) {
+  .nav-login {
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 650px) {
+  section.type,
+  section.feedback,
+  body footer {
+    padding: 2.4rem 1rem;
+  }
+
+  section.feedback,
+  section.offers {
+    padding: 2.4rem 0;
+  }
+}

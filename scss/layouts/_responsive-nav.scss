@@ -1,0 +1,73 @@
+.responsive-nav {
+  display: none;
+  width: 100%;
+  background: $grey;
+  padding: 10px 30px;
+  .container {justify-content: space-between;}
+  .brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    span {
+      color: $primary-color;
+    }
+  }
+
+  .menu-btn {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: $primary-color;
+    color: $white;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+  }
+}
+
+// FOR DESKTOP hide responsive menu
+@media (max-width: 1126px) {
+  .responsive-nav {
+    display: block;
+  }
+
+  .nav-main {
+    display: none;
+    .container{
+      height: auto;
+
+      .brand {
+        display: none;
+      }
+
+      ul {
+        display: block;
+        width: 100%;
+        li {
+          margin:0;
+          display: block;
+
+          a {
+            display: block;
+            padding: 1.2rem ;
+            font-size: .9rem;
+            font-weight: 500;
+            color: $mid-grey;
+            text-transform: uppercase;
+
+            .fa-search {
+              padding: .8rem;
+              font-size: 1.25rem;
+              border: 2px solid $mid-grey;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+      .active {
+        color: $primary-color;
+      }
+    }
+  }
+}

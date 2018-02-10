@@ -1,0 +1,55 @@
+.type {
+  width: 100%;
+  min-height: 518px;
+  padding: 5.4rem 2rem;
+  background: url('../../img/type-bg.jpg') center top / cover;
+
+  .type-wrapper {
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+      color: $white;
+      margin: 0 0 1rem 0;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1rem;
+      color: $grey-search;
+      font-weight: 400;
+
+    }
+
+    .type-icons {
+      justify-content: space-between;
+      margin-top: 4rem;
+      flex-wrap: wrap;
+
+      .type-ico {
+        text-align: center;
+        width: 15%;
+        img {
+          max-width: 100%;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1126px) {
+  .type {
+    .type-wrapper{
+
+      .type-icons {
+        flex-wrap: wrap;
+        text-align: center;
+
+        .type-ico {
+          width: 33%;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

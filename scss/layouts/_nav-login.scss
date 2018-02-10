@@ -1,0 +1,57 @@
+
+.nav-login {
+  background-color: $secondary-color;
+  height: 40px;
+  box-shadow: 0px 1px 0px 0px rgba(213, 212, 212, 0.75);
+  color: $white;
+  font-size: .9rem;
+  font-weight: 300;
+
+  li {
+    border-right: 1px solid $dark-secondary;
+  }
+
+  .login-side {
+    float: left;
+    li {
+      display: inline-block;
+    }
+
+    li:first-child {
+      border-left: 1px solid $dark-secondary;
+    }
+
+    a {
+      display: inline-block;
+      padding: .7rem 2.25rem;
+      color: $white;
+
+      &:hover span {
+        text-decoration: underline;
+      }
+    }
+
+    span {
+      color: $primary-color;
+    }
+
+  }
+
+  .social-side {
+    float: right;
+    li {
+      display: inline-block;
+    }
+
+    li:first-child {
+      border-left: 1px solid $dark-secondary;
+    }
+
+    a {
+      display: inline-block;
+      color: $white;
+      padding: .7rem 1.5rem;
+    }
+  }
+
+}
