@@ -804,7 +804,7 @@ form input {
 }
 /* line 1, ../scss/layouts/_showcase.scss */
 .showcase {
-  background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url("../../img/showcase-bg.jpg");
+  background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url("../img/showcase-bg.jpg");
   background-position: center;
   background-size: cover;
 }
