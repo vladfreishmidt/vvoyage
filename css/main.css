@@ -2243,7 +2243,7 @@ form input {
 }
 /* line 1, ../scss/layouts/_showcase.scss */
 .showcase {
-  background: linear-gradient(rgba(44, 62, 80, 0), rgba(44, 62, 80, 0)), url("../../img/showcase-bg.jpg");
+  background: linear-gradient(rgba(44, 62, 80, 0), rgba(44, 62, 80, 0)), url("../img/showcase-bg.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -2346,11 +2346,11 @@ form input {
 }
 /* line 51, ../scss/layouts/_search.scss */
 .search .search-content form #location {
-  background: url("../../img/location-bg.png") 95% center no-repeat, white;
+  background: url("../img/location-bg.png") 95% center no-repeat, white;
 }
 /* line 56, ../scss/layouts/_search.scss */
 .search .search-content form #date {
-  background: url("../../img/date-bg.png") 95% center no-repeat, white;
+  background: url("../img/date-bg.png") 95% center no-repeat, white;
 }
 
 @media (max-width: 1126px) {
@@ -2454,7 +2454,7 @@ form input {
   width: 100%;
   min-height: 518px;
   padding: 5.4rem 2rem;
-  background: url("../../img/type-bg.jpg") center top/cover;
+  background: url("../img/type-bg.jpg") center top/cover;
 }
 /* line 8, ../scss/layouts/_type.scss */
 .type .type-wrapper h2 {
