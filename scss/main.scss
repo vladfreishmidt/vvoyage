@@ -10,6 +10,7 @@
 @import 'base/_normalize.scss';
 @import 'base/_base.scss';
 @import 'base/_media-queries.scss';
+@import 'base/_animations.scss';
 
 /* MODULES - Individual site components */
 
@@ -31,3 +32,4 @@
 @import 'layouts/_type.scss';
 @import 'layouts/_feedback.scss';
 @import 'layouts/_footer.scss';
+@import 'layouts/_author.scss';

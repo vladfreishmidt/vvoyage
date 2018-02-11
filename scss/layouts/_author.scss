@@ -1,0 +1,16 @@
+.author {
+  padding: 1rem;
+  p {
+    color: $dark-grey;
+    text-align: center;
+    font-size: .9rem;
+    span {
+      display: inline-block;
+      font-size: 1.2rem;
+      font-weight: 300;
+      font-style: normal;
+      color: $primary-color;
+
+    }
+  }
+}
